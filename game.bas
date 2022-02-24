@@ -1,5 +1,5 @@
 1 'Game:https://yummac.hatenablog.jp/entry/20190716 
-2 'PCG:　https://www.nyaonyao21.com/entry/2018/09/24/062814
+2 'PCG:https://www.nyaonyao21.com/entry/2018/09/24/062814
 3 SCREEN 1:WIDTH 32: KEYOFF :DEFINT A-Z:CLS
 4 LOCATE 7,18:PRINT "MOVE : cursor key" 
 5 X=13:Y=20:VR=&H1800
@@ -18,6 +18,7 @@
 22 LOCATE 9,7:PRINT "SUCCEED"
 23 LOCATE 9,9:PRINT "GAME OVER
 30 END
+1000 'PCG:https://www.nyaonyao21.com/entry/2018/09/24/062814
 1061 M=ASC("#")
 1062 FOR I=0 TO 7
 1063 READ BG$
